@@ -1,0 +1,140 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	/*	Recomendación del cliente */
+	max-width: 1078px;
+	min-width: 1078px;
+}
+footer{
+	/* im blue dabadee dabadae*/
+	background: rgba(60,101,177,1);
+	color: white;
+	margin-top: 40px;
+}
+footer article{
+	width: 32.8%;
+	display: inline-block;
+}
+header input{
+	float: right;
+	margin-top: 15px;
+	margin-right: -230px; 
+}
+header nav{
+	/*border: 1px solid red;*/
+	/*text-align: center;*/
+	margin-left: 220px;
+}
+header nav ul li{
+	border-bottom: 1px solid lightgray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	color: lightgray;
+	padding-bottom: 2px;
+	/*text-decoration: underline;*/
+}
+#bgoffer{
+	/*
+	static es por defecto
+	se usa margin
+	*/
+	left: -35px;
+	top: -406px;
+	position: relative;
+}
+#granthams{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#paint{
+	float: right;
+}
+#facebook{
+    position: relative;
+    left: 840px;
+    top: -200px;
+}
+#twitter{
+    position: relative;
+    left: 850px;
+    top: -200px
+}
+#personitas{
+    position: relative;
+    left: 860px;
+    top: -215px;
+}
+#primerSeccion{
+	height: 318px;
+	margin-top: 60px;
+}
+#primerSeccion article{
+	display: inline-block;
+	vertical-align: top;
+}
+#secc01art01{
+	width: 60%;
+	margin-left: 30px;
+}
+#secc01art02{
+	width: 30%
+	margin-left: 50px;
+}
+#secc01art02 ul{
+	/* Se borran los círculos negros */
+	list-style: none;
+	margin-left: -40px;
+}
+#secc01art02 ul li:before{
+	/* Se pintan los círculos rosa */
+	content: "• ";
+	color: #FF0099;
+}
+#secc03art04{
+	margin-top: 40px;
+	/*padding-top: 40px;*/
+}
+#secc03art04 input{
+	border-radius: 5px;
+}
+#secc03art04 input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+#segundaSeccion article{
+	margin-right: 165px;
+	text-align: right;
+}
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#cuartaSeccion article{
+    display: inline-block;
+    width: 29%;
+    padding: 20px;
+    text-align: center;
+}
+.colorazul{
+	color: #4267B3;
+}
+.colorrosa{
+	color: #FF0099;
+}
+.colorverde{
+	color: #8BC500;
+}
+.letragrande{
+	font-size: 3.5em;
+}
+.letramediana{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold;
+}
