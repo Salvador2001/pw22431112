@@ -1,0 +1,28 @@
+"use strict";
+let tiempo = 76000000;
+let animal = "dinosaurio";
+let extinto = true;
+let mivariable;
+mivariable = "cadena";
+mivariable = 42;
+let animales = ['perro', 'gato', 'caballo'];
+let numeros1 = [1, 2, 3, 4, 5];
+let atributos = [];
+let numeros = [];
+let tupla = [1, 'cadena'];
+tupla.push(12);
+let tupla2 = [1, ['cadena', 'cadena2', 'cadena3']];
+const chica = 's';
+const mediana = 'm';
+const grande = 'l';
+const extragrande = 'xl';
+var Talla;
+(function (Talla) {
+    Talla["Chica"] = "s";
+    Talla["Mediana"] = "m";
+    Talla["Grande"] = "l";
+    Talla["Extragrande"] = "xl";
+})(Talla || (Talla = {}));
+const tallaGrande = Talla.Grande;
+console.log("Talla: " + tallaGrande);
+const estado = 2;
