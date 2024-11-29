@@ -1,0 +1,98 @@
+body{
+    background: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 823px;
+}
+nav{
+	background-color: black;
+	color: rgb(218,217,237);
+	display: inline-block;
+	width: 803px;
+	padding: 10px;
+}
+nav img{
+	max-width: 30px;
+	margin-left: 50px;
+	vertical-align: middle;
+}
+nav input{
+	position: relative;
+	left: 310px;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+}
+.artSearch{
+	background-color: rgba(218,219,241);
+	text-align: center;
+	padding: 40px;
+	font-size: 1.8em;
+}
+.artSearch input{
+	padding: 10px;
+	position: relative;
+	top: -20px;
+	width: 350px;
+}
+.artLinks{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	padding: 50px;
+}
+.artLinks img{
+	width: 50px;
+}
+.artLinksHijos{
+	display: grid;
+ 	align-items: center; 
+ 	grid-template-columns: 80px 1fr;
+ 	column-gap: 5px;
+}
+.artFooter{
+	background-color: black;
+	color: white;
+	display: grid;
+	font-size: 0.7em;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr;
+	padding: 25px;
+	padding-bottom: 125px;
+	color: rgb(218,217,237);
+	width: 773px;
+}
+.artFooter img{
+	max-width: 30px;
+	left: -5px;
+	position: relative;
+}
+.artCopy{
+	position: relative;
+	top: 100px;
+}
+.btn1{
+	background-color: rgba(24,26,28);
+	color: white;
+	border: 1px solid darkgray;
+}
+.btn2{
+	background-color: rgba(75,95,213);
+	color: white;
+}
+.negrita{
+	font-weight: bold;
+}
+.letra-azul{
+	color: rgba(90,136,218);
+}
+.letra-mediana{
+	font-size: 1.3em;
+}
+.letra-blanca{
+	color: white;
+}
